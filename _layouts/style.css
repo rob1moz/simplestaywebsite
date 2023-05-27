@@ -683,6 +683,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-bottom: 56.25%;
 }
 
+.img-class {
+  width: 12%;
+}
+
 .video-container iframe {
   position: absolute;
   top: 0;
@@ -714,5 +718,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     .mt-2 {
       margin-top: 1.50rem;
       margin-bottom: 1.50rem;
+    }
+    .img-class {
+      width: 35%;
+    }
+    .navbar-brand {
+      float: none;
     }
     }
