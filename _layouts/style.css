@@ -595,7 +595,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   display: flex!important;
 }
 #demo {
-  background: linear-gradient(112deg, #ffffff 20%, #026244 75%);
+  background: linear-gradient(112deg, #ffffff 10%, #026244 95%);
   max-width: 900px;
   margin: auto;
   height: 300px
@@ -619,9 +619,9 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding: 5rem 8rem;
   height: 300px;
   list-style-type: none; padding: 0px; margin-top: 10%;
-  color: rgba(78, 77, 77, 0.856);
+  color: black;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-weight: bold;
   line-height: 2rem;

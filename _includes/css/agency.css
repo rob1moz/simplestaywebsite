@@ -270,12 +270,18 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/assets/img/Header_image.jpg');
-    background-position: center center;
+    background-position: right bottom;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media(max-width:768px) {
+    header {
+        background-position: right;
+    }
 }
 
 header .intro-text {
