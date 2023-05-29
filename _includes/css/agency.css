@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/assets/img/Header_image.jpg');
+    background-image: url('{{ site.baseurl }}/assets/img/e2.jpg');
     background-position: right bottom;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -287,6 +287,8 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: #026244;
+    -webkit-text-stroke: 0.4px white
 }
 
 header .intro-text .intro-lead-in {
@@ -664,14 +666,15 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/assets/img/Footer_image.jpg');
+    background-image: url('{{ site.baseurl }}/assets/img/e1.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #026244;
+
 }
 
 section#contact .form-group {
@@ -947,4 +950,24 @@ body {
     .popup{
       width: 70%;
     }
+  }
+
+  .btn {
+    white-space: inherit !important;
+  }
+
+  #demo {
+    background: linear-gradient(112deg, #ffffff 50%, #026244 120%) !important
+  }
+  .service-heading {
+    font-size: 28px !important
+  }
+
+  .text-4xl {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .bg-bok {
+    background-color: #026244;
   }
