@@ -320,20 +320,20 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
-        line-height: 40px;
-        font-weight:bolder;
+        line-height: 30px;
+        
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        font-weight:bolder;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 45px;
+        
     }
 }
 
@@ -359,6 +359,11 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+    }
+    .timeline>li .timeline-image h4{
+        margin-top: 1.5rem;
+    font-size: 9px;
+    line-height: 13px;
     }
 }
 
