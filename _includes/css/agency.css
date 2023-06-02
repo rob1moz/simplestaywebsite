@@ -1009,7 +1009,7 @@ body {
     }
     }
 
-    .carousel_slider{
+    .slider1{
         -webkit-transition: all 1s cubic-bezier(0.3,1,0,1);
         transition: all 0.7s cubic-bezier(0.3,1,0,1);
     }
