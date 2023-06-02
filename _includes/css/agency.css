@@ -1008,3 +1008,8 @@ body {
     line-height: 13px;
     }
     }
+
+    .carousel-slider{
+        -webkit-transition: all 1s cubic-bezier(0.3,1,0,1);
+        transition: all 0.7s cubic-bezier(0.3,1,0,1);
+    }
