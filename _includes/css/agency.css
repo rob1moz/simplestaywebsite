@@ -999,8 +999,8 @@ body {
         background-color: #fff;
     }
     header .intro-heading{
-        font-size: 14px !important;
-        font-weight: 200;
+        font-size: 12px;
+        font-weight: 100;
         background-color: #fff;
         font-style: italic;
     }
