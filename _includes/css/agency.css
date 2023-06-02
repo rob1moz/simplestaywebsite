@@ -1001,6 +1001,7 @@ body {
         font-size: 14px !important;
         font-weight: 200;
         background-color: #fff;
+        font-style: italic;
     }
     #section{
         font-size: small;
