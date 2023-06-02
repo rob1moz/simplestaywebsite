@@ -907,6 +907,15 @@ body {
   .carousel-caption {
     width: 70% !important;
   }
+  @media (max-width:770px) {
+    .carousel-caption {
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 1px;
+        margin-top: 0px !important;
+    }
+    
+  }
   
 
   .overlaya {
@@ -1007,12 +1016,7 @@ body {
     font-size: 9px;
     line-height: 13px;
     }
-    .carousel-caption p{
-        font-size: 12px;
-        font-weight: lighter;
-        padding: 1px;
-        margin-top: 0px !important;
-    }
+    
     .testimonial_size_gia{
         font-size: 10px !important;
     }

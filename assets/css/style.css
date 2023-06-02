@@ -379,12 +379,15 @@ li {
   .carousel-caption {
     position: initial;
     z-index: 10;
-    padding: 3rem 2rem;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 2px;
+    margin-top: 0px !important;
     color: rgba(78, 77, 77, 0.856);
     text-align: center;
-    font-size: 0.9rem;
+    
     font-style: italic;
-    font-weight: bold;
+  
     line-height: 1.5rem;
   }
 }
