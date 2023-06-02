@@ -1007,7 +1007,10 @@ body {
     font-size: 9px;
     line-height: 13px;
     }
-    #testimonial_size{
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .testimonial_size_gia{
         font-size: 10px !important;
     }
     }
