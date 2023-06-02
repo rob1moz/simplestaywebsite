@@ -315,6 +315,21 @@ li {
   background: #149ddd;
 }
 
+.title_service{
+  font-size: 2rem !important;
+}
+@media (min-width:1030) {
+  .title_service{
+    font-size: 1.75rem !important;
+  }
+  
+}
+@media (min-width: 100px) and (max-width: 1029px) {
+  .title_service{
+    font-size: 1rem !important;
+  }
+}
+
 /*--------------------------------------------------------------------- offer css */
 .offer_box {
   padding: 30px 20px;
@@ -380,7 +395,7 @@ li {
   .carousel-caption{
     margin-top: 5%;
     font-size: 10px !important;
-    
+
   }
 }
 .carousel-caption img {
