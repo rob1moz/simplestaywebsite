@@ -1008,7 +1008,9 @@ body {
     line-height: 13px;
     }
     .carousel-caption p{
-        font-size: 14px;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 1px;
     }
     .testimonial_size_gia{
         font-size: 10px !important;
