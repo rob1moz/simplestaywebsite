@@ -1,16 +1,6 @@
-{
-    % include css/bootstrap.min.css %
-  }
-
-    {
-    % include css/agency.css%
-  }
-
-    {
-      {
-      content
-    }
-  }
+{% include css/bootstrap.min.css %}
+{% include css/agency.css %}
+{{ content }}
 
   .flex-wrap {
     flex-wrap: wrap;
