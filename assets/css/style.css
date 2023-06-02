@@ -454,12 +454,7 @@ li {
 .about_pic {
   text-align: center;
 }
-@media (max-width:770px){
-  .extra-marg{
-      margin-bottom: 200px !important;
-  }
-  
-}
+
 /*----------------------------------------------.contact css */
 .icon.pr-3 i {
   font-size: 30px;
