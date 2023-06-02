@@ -907,7 +907,8 @@ body {
   .carousel-caption {
     width: 70% !important;
   }
-  @media (max-width:770px) {
+ 
+@media (min-width: 100px) and (max-width: 600px) {
     .carousel-caption {
         font-size: 12px;
         font-weight: lighter;
