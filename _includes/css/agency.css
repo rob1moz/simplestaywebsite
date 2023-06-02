@@ -1007,6 +1007,9 @@ body {
     font-size: 9px;
     line-height: 13px;
     }
+    #testimonial_size{
+        font-size: 10px !important;
+    }
     }
 
     .slider1{
