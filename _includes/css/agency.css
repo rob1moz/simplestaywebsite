@@ -993,18 +993,12 @@ body {
     background-color: #026244;
   }
  
-  @media (min-width:100px) and (max-width:400px) {
-    header .intro-lead-in{
-        font-size: 10px !important;
-      margin-top: 100px;
-      font-weight: 100;
-      background-color: #fff;
-    }          
-  }
  
+
     @media (max-width:768px){
         header .intro-lead-in{
             margin-top: 100px;
+            font-size: 10px !important;
             font-weight: 100;
             background-color: #fff;
             
