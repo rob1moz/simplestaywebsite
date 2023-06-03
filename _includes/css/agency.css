@@ -994,19 +994,22 @@ body {
   }
 
  
-    @media(max-width:768px){
+    @media (min-widht:401px) and (max-width:768px){
         header .intro-lead-in{
             margin-top: 100px;
-            font-size: 12px;
             font-weight: 100;
             background-color: #fff;
         }
-        header .intro-heading{
-            font-size: 14px !important;
-            font-weight: 200;
+    
+        @media (min-width:100px) and (max-width:400px) {
+          header .intro-lead-in{
+            font-size: 10px !important;
+            margin-top: 100px;
+            font-weight: 100;
             background-color: #fff;
-            font-style: italic;
+          }          
         }
+       
     #section{
         font-size: small;
     }
