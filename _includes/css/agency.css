@@ -1036,10 +1036,8 @@ body {
     @media (max-width:450px) {
         
     
-    div div span h3 p{
+    .font-size-grid{
         font-size: 10px !important;
-    }
-    div div span h3 p ul li{
-        font-size: 10px !important;
+
     }
 }
