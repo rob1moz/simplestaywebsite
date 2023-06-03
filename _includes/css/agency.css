@@ -1033,3 +1033,13 @@ body {
             font-size: 11px;
         }
     }
+    @media (max-width:450px) {
+        
+    
+    div div span h3 p{
+        font-size: 10px !important;
+    }
+    div div span h3 p ul li{
+        font-size: 10px !important;
+    }
+}
