@@ -395,6 +395,9 @@ li {
 
   }
 }
+.test_align{
+  margin-top: 0px;
+}
 @media (max-width:440px) {
   .test_align{
     margin-top: 20% !important;
