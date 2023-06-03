@@ -390,7 +390,7 @@ li {
  
 @media (min-width: 100px) and (max-width: 700px){
   .carousel-caption{
-    margin-top: 5%;
+    margin-top: 5% !important;
     font-size: 10px !important;
 
   }
@@ -619,4 +619,8 @@ figure,
 p,
 pre {
   margin: 0;
+}
+
+.test_align{
+  margin-top: 20%;
 }

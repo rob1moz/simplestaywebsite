@@ -83,7 +83,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption test_align">
                       <p>
                         Amazing studio in Crans-Montana. The host is nice and
                         always available for info requests.
@@ -101,7 +101,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption test_align">
                       <p>
                         Robin est un hôte très réactif et sympathique et
                         serviable. L'hébergement et l'emplacement sont
@@ -242,3 +242,25 @@
     </div>
   </div>
 </section>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all carousel items
+    const carouselItems = document.querySelectorAll('.carousel-item');
+  
+    // Get the current screen width
+    const screenWidth = window.innerWidth;
+  
+    // Iterate through each carousel item
+    carouselItems.forEach(item => {
+      // Get the carousel-caption element within the current item
+      const caption = item.querySelector('.carousel-caption');
+  
+      // Check if the current item has the class 'active' and screen size is less than 440 pixels
+      if (item.classList.contains('active') && screenWidth < 440) {
+        // Add the 'test_align' class to the carousel-caption element
+        caption.classList.add('test_align');
+      }
+    });
+  });
+  
+</script>
