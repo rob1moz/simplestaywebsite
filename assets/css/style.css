@@ -388,21 +388,14 @@ li {
   line-height: 1.25rem;
 }
  
-@media (min-width: 100px) and (max-width: 700px){
+@media (min-width: 100px) and (max-width: 500px){
   .carousel-caption{
-    margin-top: 5% !important;
+    margin-top: 30% !important;
     font-size: 10px !important;
 
   }
 }
-.test_align{
-  margin-top: 0px;
-}
-@media (max-width:440px) {
-  .test_align{
-    margin-top: 20% !important;
-  }  
-}
+
 .carousel-caption img {
   width: 6rem;
   border-radius: 5rem;
