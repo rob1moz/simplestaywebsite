@@ -992,23 +992,25 @@ body {
   .bg-bok {
     background-color: #026244;
   }
-
  
-    @media (min-widht:401px) and (max-width:768px){
+  @media (min-width:100px) and (max-width:400px) {
+    header .intro-lead-in{
+        font-size: 10px !important;
+      margin-top: 100px;
+      font-weight: 100;
+      background-color: #fff;
+    }          
+  }
+ 
+    @media (max-width:768px){
         header .intro-lead-in{
             margin-top: 100px;
             font-weight: 100;
             background-color: #fff;
+            
         }
     
-        @media (min-width:100px) and (max-width:400px) {
-          header .intro-lead-in{
-            font-size: 10px !important;
-            margin-top: 100px;
-            font-weight: 100;
-            background-color: #fff;
-          }          
-        }
+       
        
     #section{
         font-size: small;
@@ -1024,6 +1026,8 @@ body {
         font-size: 10px !important;
     }
     }
+
+   
 
     .slider1{
         transition: all 0.7s cubic-bezier(0.3,1,0,1);
