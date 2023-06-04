@@ -1041,8 +1041,15 @@ body {
         
     
     .font-size-grid{
-        font-size: 10px !important;
+        font-size: inherit !important;
 
+
+    }
+    .main_box{
+        width: 100% !important;
+    }
+    .main_box .p-6{
+        padding: 1rem 0.5rem !important;
     }
 }
 
