@@ -1040,16 +1040,19 @@ body {
     @media (max-width:450px) {
         
     
-    .font-size-grid{
-        font-size: inherit !important;
-
-
+        .font-size-grid{
+            font-size: inherit !important;
+    
+    
+        }
+        .main_box{
+            width: 100% !important;
+            padding-left: 0;
+            padding-right:0;
+        }
+        .main_box .p-6{
+            padding: 1rem 0.5rem !important;
+        }
     }
-    .main_box{
-        width: 100% !important;
-    }
-    .main_box .p-6{
-        padding: 1rem 0.5rem !important;
-    }
-}
+    
 
