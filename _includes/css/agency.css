@@ -1003,6 +1003,10 @@ body {
             background-color: #fff;
             
         }
+        .intro-text a{
+            padding: 15px 30px !important;
+            font-size: 12px !important;
+        }
     
        
        
