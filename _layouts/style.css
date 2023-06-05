@@ -14,6 +14,10 @@
     margin: -1rem;
   }
 
+  .mb{
+    margin-bottom: 0;
+  }
+
   @media (min-width: 768px) {
     .md\:w-1\/2 {
       width: 50%;
@@ -79,7 +83,7 @@
   }
 
   .text-xs {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1rem;
   }
 
@@ -986,4 +990,34 @@
     }
   }
 
-  
+  /* css for offer section in desktop version  */
+  @media (min-width:1000px) {
+    .font-size-grid {
+      font-size: 2.5rem !important;
+    }
+
+    .font-size-grid p{
+      font-size: 2.5rem !important;
+    }
+
+    .font-size-grid ul{
+      font-size: 2.25rem !important;
+    }
+    
+    .font-size-grid h3{
+      font-size: 2.75rem !important;
+    }
+
+    .font-size-grid h1{
+      font-size: 2rem !important;
+    }
+    
+    .font-size-grid a{
+      font-size: 2rem !important;
+    }
+
+    .font-size-grid .mb{
+      margin-bottom: 14.5rem !important;
+    }
+
+  }
