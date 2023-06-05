@@ -392,8 +392,9 @@ li {
   .carousel-caption{
     margin-top: 30% !important;
     font-size: 10px !important;
-    padding: 0 2rem !important;
+    
   }
+  
 }
 
 .carousel-caption img {
